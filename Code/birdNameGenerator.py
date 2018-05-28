@@ -9,23 +9,23 @@ import numpy as np
 import pickle
 
 ## load all relevant files
-with open('BirdNameData/twoWordBirdNames.pkl', 'rb') as f:
+with open('Data/twoWordBirdNames.pkl', 'rb') as f:
    twoWordNames = pickle.load(f)
 f.close()
 
-with open('BirdNameData/threeWordBirdNames.pkl', 'rb') as f:
+with open('Data/threeWordBirdNames.pkl', 'rb') as f:
    threeWordNames = pickle.load(f)
 f.close()
 
-with open('BirdNameData/BirdName_firstWord.pkl', 'rb') as f:
+with open('Data/BirdName_firstWord.pkl', 'rb') as f:
    FirstWordUnique = pickle.load(f)
 f.close()
 
-with open('BirdNameData/BirdName_secondWord.pkl', 'rb') as f:
+with open('Data/BirdName_secondWord.pkl', 'rb') as f:
    SecondWordUnique = pickle.load(f)
 f.close()
 
-with open('BirdNameData/BirdName_lastWord.pkl', 'rb') as f:
+with open('Data/BirdName_lastWord.pkl', 'rb') as f:
    LastWordUnique = pickle.load(f)
 f.close()
 
