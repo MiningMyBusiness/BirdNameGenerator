@@ -8,7 +8,11 @@ Uses an existing [list of birds by common name](https://en.wikipedia.org/wiki/Li
 Contains first, second (if three-word name), and last word of existing bird names along with existing two- and three-word names of birds. 
 
 ### Example names generated (these birds do not exist yet)
+
 grey-cheeked black-headed vanga
+
 purple-winged golden mesite 
+
 pale-browed bristlehead 
+
 paddyfield kite
