@@ -84,22 +84,22 @@ for word in lastWord:
         LastWordUnique.append(word)
 
 ## save all lists to file
-with open('BirdNameData/twoWordBirdNames.pkl', 'wb') as f:
+with open('Data/twoWordBirdNames.pkl', 'wb') as f:
    pickle.dump(twoWordNames, f)
 f.close()
 
-with open('BirdNameData/threeWordBirdNames.pkl', 'wb') as f:
+with open('Data/threeWordBirdNames.pkl', 'wb') as f:
    pickle.dump(threeWordNames, f)
 f.close()
 
-with open('BirdNameData/BirdName_firstWord.pkl', 'wb') as f:
+with open('Data/BirdName_firstWord.pkl', 'wb') as f:
    pickle.dump(FirstWordUnique, f)
 f.close()
 
-with open('BirdNameData/BirdName_secondWord.pkl', 'wb') as f:
+with open('Data/BirdName_secondWord.pkl', 'wb') as f:
    pickle.dump(SecondWordUnique, f)
 f.close()
 
-with open('BirdNameData/BirdName_lastWord.pkl', 'wb') as f:
+with open('Data/BirdName_lastWord.pkl', 'wb') as f:
    pickle.dump(LastWordUnique, f)
 f.close()
